@@ -16,15 +16,25 @@ User behavior (e.g., use_chip_encoded, fraud_count_x, mean_transaction_x)
 Top 10 Features Used for Model Training
 
 merchant_fraud_rate – Indicates the historical fraud rate of the merchant
+
 fraud_count_x – Number of past fraudulent transactions associated with the user
+
 zip_encoded – Encoded ZIP code for location-based risk assessment
+
 use_chip_encoded – Whether a chip was used in the transaction (higher security)
+
 mean_transaction_x – Average transaction amount for the user
+
 transaction_id – Unique identifier for the transaction
+
 mcc_encoded – Encoded merchant category code for business classification
+
 merchant_city_encoded – Encoded merchant city for fraud pattern analysis
+
 merchant_state_encoded – Encoded merchant state for geographic fraud trends
+
 time_since_last_transaction – Time elapsed since the last transaction, identifying anomalies
+
 Model Performance & Evaluation
 
 Random Forest

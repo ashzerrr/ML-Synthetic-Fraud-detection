@@ -9,7 +9,9 @@ Dataset
 The dataset includes transaction records with the following key features:
 
 Transaction details (e.g., transaction_id, amount, time_since_last_transaction)
+
 Merchant information (e.g., merchant_fraud_rate, merchant_city_encoded, merchant_state_encoded)
+
 User behavior (e.g., use_chip_encoded, fraud_count_x, mean_transaction_x)
 
 

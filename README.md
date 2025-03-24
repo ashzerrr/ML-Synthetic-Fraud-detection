@@ -11,6 +11,8 @@ The dataset includes transaction records with the following key features:
 Transaction details (e.g., transaction_id, amount, time_since_last_transaction)
 Merchant information (e.g., merchant_fraud_rate, merchant_city_encoded, merchant_state_encoded)
 User behavior (e.g., use_chip_encoded, fraud_count_x, mean_transaction_x)
+
+
 Top 10 Features Used for Model Training
 
 merchant_fraud_rate – Indicates the historical fraud rate of the merchant
@@ -30,11 +32,15 @@ Accuracy: 99.97%
 F1-Score (Fraud Class): 0.89
 ROC-AUC: 0.9872
 PR-AUC: 0.9190
+
+
 XGBoost
 Accuracy: 95.78%
 F1-Score (Fraud Class): 0.07
 ROC-AUC: 0.9983
 PR-AUC: 0.6867
+
+
 Key Findings:
 Random Forest has a balanced performance with high fraud precision (0.93) and recall (0.86).
 XGBoost has perfect recall (1.00) but very low precision (0.03), leading to excessive false positives.
